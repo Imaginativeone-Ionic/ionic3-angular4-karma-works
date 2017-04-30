@@ -1,12 +1,18 @@
 import { MagicBall } from './magic-ball';
 
+let magicBall = null;
+
 describe('Magic 8 Ball Service', ()=>{
 
-    it('should do nothing', ()=>{
+    beforeEach(()=>{
 
-        expect(true).toBeTruthy();
-        expect(1 + 1).toBe(2);
-        expect(2 + 2).toBe(4); // 5, this will fail
+        magicBall = new MagicBall();
+
+    });
+
+    it('should return a non empty array', ()=>{
+
+        // let result = magicBall.getAnswers();
 
     });
 

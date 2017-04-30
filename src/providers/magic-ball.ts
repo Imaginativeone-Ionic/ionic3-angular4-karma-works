@@ -11,7 +11,8 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class MagicBall {
 
-  constructor(public http: Http) {
+  // Signature Updated - Delete this message later
+  constructor() {
     console.log('Hello MagicBall Provider');
   }
 
